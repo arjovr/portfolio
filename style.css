@@ -225,3 +225,44 @@ section.project div.screenshot {
 .color7 {
     --hue: calc(var(--base-hue) + var(--rotation) * 6.5);
 }
+
+
+div.footer-icon-container {
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+
+footer {
+    background-color: var(--bg-color);
+    display: flex;
+    gap: 40px;
+    padding: 60px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer section {
+    color: white;
+}
+
+footer p, footer address, footer div.email, footer div.telephone {
+    font-family: 'Lato';
+    color: white;
+    padding-top: 20px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter-white {
+    filter: invert(99%) sepia(1%) saturate(112%) hue-rotate(104deg) brightness(118%) contrast(100%);
+}
+
+img.sjf-qr {
+    width: 300px;
+    object-fit: contain;
+    height: auto;
+}
