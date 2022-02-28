@@ -35,7 +35,7 @@ div.rectangle {
 div.triangle {
     border-top: 40vh solid var(--bg-color);
     border-left: 0vw solid var(--bg-color);
-    border-right: 98vw solid transparent;
+    border-right: 96vw solid transparent;
     border-bottom: 0vh solid transparent;
     filter: drop-shadow(-16px 6px 3px rgba(0, 0, 0, .5));
 }
