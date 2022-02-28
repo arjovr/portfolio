@@ -133,7 +133,7 @@ h1.name {
 }
 
 div.main-photo-container {
-    background-image: url('/imgs/sjf.jpg');
+    background-image: url('imgs/sjf.jpg');
     max-width: 550px;
     min-height: 550px;
     float: left;
