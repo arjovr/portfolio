@@ -135,14 +135,21 @@ section.about-me {
     }
 
     section.project {
-        width: 240px;
+        width: 300px !important;
     }
+
 
     main {
         padding: 30px !important;
     }
 }
 
+@media (max-width: 320px) {
+    section.project {
+        width: 270px !important;
+    }
+
+}
 
 h1.name {
     padding: 10px;
@@ -150,6 +157,7 @@ h1.name {
 
 div.main-photo-container {
     background-image: url('imgs/sjf.jpg');
+    background-position: center;
     max-width: 550px;
     min-height: 550px;
     float: left;
