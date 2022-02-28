@@ -125,6 +125,22 @@ section.about-me {
     div.rectangle {
         width: 200%;
     }
+
+    section.about-me {
+        margin: 30px;
+    }
+
+    div.main-photo-container {
+        margin: 30px;
+    }
+
+    section.project {
+        width: 300px;
+    }
+
+    main {
+        padding: 30px !important;
+    }
 }
 
 
